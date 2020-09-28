@@ -13,7 +13,7 @@ public class Regex {
         String regex_lastname = "[A-Z]{1}(?=.*[a-z]).{2,}";
         String regex_email = "^[a-zA-Z]+([._+-]{0,1}[a-zA-Z0-9]+)*@[a-zA-Z0-9]+.[(com)|(co)|(net)]+(?:\\.[a-z]{2,}){0,1}$";
         String regex_mobile_number ="^\\d{2}(\\s{1}\\d{10})$";
-        String regex_password = "^[A-Z 0-9].{8,}$";
+        String regex_password = "^[A-Z 0-9]{8,}$";
         
         String firstname = "Ritu";
         String lastname = "Biswas";
@@ -34,7 +34,7 @@ public class Regex {
         Matcher matcher1 = pattern1.matcher(lastname);
         Matcher matcher2 = pattern2.matcher(email);
         Matcher matcher3 = pattern3.matcher(mobile);
-        Matcher matcher4 = pattern4.matcher(mobile);
+        Matcher matcher4 = pattern4.matcher(password);
   
         System.out.println("Pattern match for firstname is: " + matcher.find()); 
         System.out.println("Pattern match lastname is: " + matcher1.find()); 
