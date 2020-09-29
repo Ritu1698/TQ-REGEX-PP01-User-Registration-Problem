@@ -18,9 +18,12 @@ public class Regex {
         
         String firstname = "Ritu";
         String lastname = "Biswas";
-        String email = "abc.xyz@bridgelabz.co.in"; 
+        String email = "abc+100@gmail.com"; 
+        //"abc@yahoo.com" abc-100@yahoo.com abc.100@yahoo.com abc111@abc.com
+        //abc-100@abc.net abc.100@abc.com.au abc@1.com abc@gmail.com.com
+        //abc+100@gmail.com Copy+Paste & Check Validity
         String mobile = "91 9223322244";
-        String password = "ABCD@123";
+        String password = "A1B2@C3D";
        
         
         Pattern pattern = Pattern.compile(regex_firstname); 
