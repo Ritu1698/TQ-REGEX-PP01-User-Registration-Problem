@@ -13,7 +13,7 @@ public class Regex {
         String regex_lastname = "[A-Z]{1}(?=.*[a-z]).{2,}";
         String regex_email = "^[a-zA-Z]+([._+-]{0,1}[a-zA-Z0-9]+)*@[a-zA-Z0-9]+.[(com)|(co)|(net)]+(?:\\.[a-z]{2,}){0,1}$";
         String regex_mobile_number ="^\\d{2}(\\s{1}\\d{10})$";
-        String regex_password = "^(?=.*[A-Z])[A-Z 0-9]{8,}$$";
+        String regex_password = "^(?=.*[A-Z])[A-Z 0-9]{8,}$";
         
         String firstname = "Ritu";
         String lastname = "Biswas";
