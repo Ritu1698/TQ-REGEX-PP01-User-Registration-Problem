@@ -43,10 +43,10 @@ public class Regex {
         Matcher matcher4_2 = pattern4_2.matcher(password);
   
         System.out.println("Pattern match for firstname is: " + matcher.find()); 
-        System.out.println("Pattern match lastname is: " + matcher1.find()); 
-        System.out.println("Pattern match email is: " + matcher2.find()); 
-        System.out.println("Pattern match mobile is: " + matcher3.find());
-        System.out.println("Pattern match password is: " +(matcher4_1.find()&&matcher4_2.find())); 
+        System.out.println("Pattern match for lastname is: " + matcher1.find()); 
+        System.out.println("Pattern match for email is: " + matcher2.find()); 
+        System.out.println("Pattern match for mobile is: " + matcher3.find());
+        System.out.println("Pattern match for password is: " +(matcher4_1.find()&&matcher4_2.find())); 
         
         
         
